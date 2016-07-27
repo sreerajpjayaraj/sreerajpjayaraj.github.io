@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <callxml version="3.0">
-  <prompt>
+  <say>
     Welcome.
-  </promt>
+  </say>
 </callxml>

@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <callxml version="3.0">
   <say>
-    Welcome.
+    Welcome to Assyst.
+  </say>
+  <wait value="1s" />
+  <say>
+    The one point source.
+  </say>
+  <wait value="2s" />
+  
+  <say>
+    Our services range from custom, mobile and cloud applications to testing and maintenance. Using proprietary and Open Source technologies, we help organizations build business solutions that are scalable and extensible.
+  </say>
+  <wait value="1s" />
+  <say>
+    Web Content Management: Delivering digital transformations that goes beyond 'content management.'
+  </say>
+  <wait value="1s" />
+  <say>
+    Branding: Bring fresh perspective and innovative solutions to build high impact brand awarnes and recall.
+  </say>
+  <wait value="1s" />
+  <say>
+    Interface Design: Creating innovative designs and improved experiences that enhance your brand identity, user engagement and customer loyalty.
+  </say>
+  <wait value="1s" />
+  <say>
+    Managed Services: System Integration. Mobile Apps. Hosting & Monitoring. Cloud Applications.
+  </say>
+  <wait value="1s" />
+  <say>
+    Visit assyst dot in, to know more about us.
   </say>
 </callxml>

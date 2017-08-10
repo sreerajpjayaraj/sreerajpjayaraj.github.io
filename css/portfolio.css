@@ -1,0 +1,75 @@
+body {
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+}
+a {
+    color: #4cacff;
+}
+a:hover, a:focus {
+    color: #97ccfb;
+}
+article {
+    background: #222;
+    margin: 10% auto 30px auto;
+    box-shadow: 0px 0px 50px #000;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome {
+    background: #fff;
+    color: #333;
+}
+
+.cell {
+    padding: 15px;
+}
+
+h1.intro {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 7em;
+    margin: 125px auto;
+}
+
+.ex {
+    position: relative;
+}
+.ex .fa{
+    font-size: 11px;
+    background: #fff;
+    padding: 5px 2px;
+    border-radius: 50% 50% 0;
+    color: #000;
+    position: absolute;
+    top: -17px;
+}
+.profile-pic {
+    background: #fff url(../images/sreeraj.jpg) no-repeat center;
+    height: 200px;
+    width: 100%;
+    background-size: 100%;
+    background-blend-mode: luminosity;
+}
+.desc {
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .pull-sm-right {
+        float: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .profile-pic {
+        height: 126px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .profile-pic {
+        height: 175px;
+    }
+}

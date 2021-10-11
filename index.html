@@ -76,4 +76,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Latest compiled and minified JavaScript -->
         <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
     </body>
+    <script>
+        jQuery(function($){
+            $("a").click(function(){
+                var tLink = $(this).attr('href');
+                var tTitle = $(this).text(); 
+                
+                dataLayer.push({
+                'insightCategory': 'Insights',
+                'insightTitle': tLink,
+                'insightLink': tTitle
+                });
+            });
+        });
+    </script>    
 </html>

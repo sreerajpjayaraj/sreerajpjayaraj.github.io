@@ -79,13 +79,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script>
         jQuery(function($){
             $("a").click(function(){
-                var tLink = $(this).attr('href');
+                var tLink = $(this).attr("href");
                 var tTitle = $(this).text(); 
                 
                 dataLayer.push({
-                'insightCategory': 'Insights',
-                'insightTitle': tLink,
-                'insightLink': tTitle
+                "insightCategory": "Insights",
+                "insightTitle": tLink,
+                "insightLink": tTitle
                 });
             });
         });
